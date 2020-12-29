@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Nick
 title: Welcome to the blog
 description: A short welcome to my blog
 date: 2020-12-29 01:31:00
