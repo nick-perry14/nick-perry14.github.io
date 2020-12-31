@@ -5,7 +5,10 @@
 
 - title: Blog
   url: /blog
-
+  
+- title: Guides
+  url: /guides
+  
 - title: About Me
   url: /about/
   sublinks:
