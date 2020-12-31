@@ -3,7 +3,6 @@
 
 Follow the steps below to create outfits for EUP
 
-
 Download and install eup-stream and eup-ui
 
 Navigate to the eup-ui folder
@@ -12,6 +11,7 @@ Open the eup-ui.lua file
 
 The file should contain entries that look like this:
 
+<br>
 ```lua
 	['Male LSPD Class A'] = {
 		category = 'LSPD - Male',
@@ -37,6 +37,7 @@ The file should contain entries that look like this:
 	},
 ```
 
+<br>
 Modify line "Male LSPD Class A" to whatever name of the outfit you would like
 
 Assign the category that the outfit should show under
@@ -45,13 +46,17 @@ Assign the props as necessarry
 
 For Props:  The template is as followed:
 
+<br>
 ```
 props = {
 {propNumber, propSelection, propColor},
 }
 ```
 
+<br>
 For propNumber, reference the following table
+
+<br>
 
 |Prop Type|Prop Number|
 |:-:|:-:|
@@ -60,6 +65,7 @@ For propNumber, reference the following table
 |**Ear (Misc)**|**2**|
 |**Watch**|**6**|
 
+<br>
 Set the propSelection to the variation number (Hat #5, for example)
 
 Set the propColor to the color of the prop (starting from 1)
@@ -68,13 +74,17 @@ Assign components as necessary
 
 For Components: The template is as follows:
 
+<br>
 ```
 components = {
 {compNumber,compSelection,compColor},
 }
 ```
 
+
 For compNumber, reference the following table
+
+<br>
 
 |Component Type|Component Number|
 |:-:|:-:|
@@ -83,12 +93,13 @@ For compNumber, reference the following table
 |**Pants**|**4**|
 |**Bags // Parachute**|**5**|
 |**Shoes**|**6**|
-|**Neck/Scarf**|**7**|
-|**Shirt/Accessory**|**8**|
+|**Neck//Scarf**|**7**|
+|**Shirt//Accessory**|**8**|
 |**Body Armor**|**9**|
-|**Badges/Logos**|**10**|
-|**Jackey/Overlay**|**11**|
+|**Badges//Logos**|**10**|
+|**Jackey//Overlay**|**11**|
 
+<br>
 Set the compSelection to the variationNumber (Jacket #5)
 
 Set the compColor to the jacket color (starting from 1)
