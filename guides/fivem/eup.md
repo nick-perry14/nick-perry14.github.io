@@ -4,10 +4,13 @@
 Follow the steps below to create outfits for EUP
 
 
-1. Download and install eup-stream and eup-ui
-2. Navigate to the eup-ui folder
-3. Open the eup-ui.lua file
-4. The file should contain entries that look like this:
+Download and install eup-stream and eup-ui
+
+Navigate to the eup-ui folder
+
+Open the eup-ui.lua file
+
+The file should contain entries that look like this:
 
 ```lua
 	['Male LSPD Class A'] = {
@@ -33,15 +36,21 @@ Follow the steps below to create outfits for EUP
 		}
 	},
 ```
-5. Modify line "Male LSPD Class A" to whatever name of the outfit you would like
-6. Assign the category that the outfit should show under
-7. Assign the props as necessarry
+
+Modify line "Male LSPD Class A" to whatever name of the outfit you would like
+
+Assign the category that the outfit should show under
+
+Assign the props as necessarry
+
 For Props:  The template is as followed:
+
 ```
 props = {
 {propNumber, propSelection, propColor},
 }
 ```
+
 For propNumber, reference the following table
 
 |Prop Type|Prop Number|
@@ -51,16 +60,21 @@ For propNumber, reference the following table
 |**Ear (Misc)**|**2**|
 |**Watch**|**6**|
 
-8.  Set the propSelection to the variation number (Hat #5, for example)
-9. Set the propColor to the color of the prop (starting from 1)
-10. Assign components as necessary
+Set the propSelection to the variation number (Hat #5, for example)
+
+Set the propColor to the color of the prop (starting from 1)
+
+Assign components as necessary
+
 For Components: The template is as follows:
+
 ```
 components = {
 {compNumber,compSelection,compColor},
 }
 ```
-11. For compNumber, reference the following table
+
+For compNumber, reference the following table
 
 |Component Type|Component Number|
 |:-:|:-:|
@@ -74,7 +88,11 @@ components = {
 |**Body Armor**|**9**|
 |**Badges/Logos**|**10**|
 |**Jackey/Overlay**|**11**|
-12. Set the compSelection to the variationNumber (Jacket #5)
-13. Set the compColor to the jacket color (starting from 1)
-14. Repeat for multiple props/components
-15. Upload file/restart eup-ui
+
+Set the compSelection to the variationNumber (Jacket #5)
+
+Set the compColor to the jacket color (starting from 1)
+
+Repeat for multiple props/components
+
+Upload file/restart eup-ui
