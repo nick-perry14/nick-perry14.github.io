@@ -2,6 +2,8 @@
 title: About
 permalink: /about/
 ---
+# About
+
 ![Profile Photo of Nick Perry](/assets/img/6935777.jpg)
 
 

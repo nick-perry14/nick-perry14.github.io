@@ -39,6 +39,7 @@ header_pages:
    - index.html
    - about.markdown
    - university.markdown
+   - connect.markdown
    - resume.markdown
 defaults:
    home:
