@@ -7,9 +7,9 @@ permalink: /connect/
 # Connect
 
 ## Social Media
-[<i class="fab fa-github-square"></i> Github](https://github.com/nick-perry14)\
-[<i class="fab fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/nicholas-a-perry/)\
-[<i class="fab fa-keybase"></i> Keybase](https://keybase.io/nicholasperry)
+[<i class="fab fa-github-square"></i> Github](https://github.com/nick-perry14){:target="_blank"}\
+[<i class="fab fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/nicholas-a-perry/){:target="_blank"}\
+[<i class="fab fa-keybase"></i> Keybase](https://keybase.io/nicholasperry){:target="_blank"}
 
 ## Email Me
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xzbyqlpg" method="post">
