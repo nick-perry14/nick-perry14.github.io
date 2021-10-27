@@ -20,8 +20,8 @@
 
 title: Nick Perry
 #email: perryna4 [_at_] miamioh [_dot_] edu
-description: >- # this means to ignore newlines until "baseurl:"
-  Software Engineer - Graduate Student - Resident Assistant
+description: >- 
+  Software Engineer Graduate Student Resident Assistant
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "nick-perry14.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -30,16 +30,16 @@ copyright: "Copyright (c) 2017-{currentYear} {author}"
 sitemap: true
 lang: "en"
 night_mode: "auto"
- code_badge:
+code_badge:
    enabled: "true"
    color: "#fff"
    background_color: "#ff4e00"
    text_transform: "uppercase"
- header_pages:
+header_pages:
    - index.html
    - about.markdown
    - university.markdown
- defaults:
+defaults:
    home:
      heading: "Nick Perry"
      subheading: "Software Engineer • Graduate Student • Resident Assistant"
@@ -65,7 +65,7 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
- exclude:
+exclude:
    - .sass-cache/
    - .jekyll-cache/
    - gemfiles/
