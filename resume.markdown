@@ -3,22 +3,25 @@ title: Resume
 permalink: /resume/
 ---
 <style>
-.iframe-container {
-  overflow: hidden;
-  /* 16:9 aspect ratio */
-  padding-top: 56.25%;
+.myIframe {
   position: relative;
+  padding-bottom: 65.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; /*<<--- THIS IS THE KEY*/ 
+  border: solid black 1px;
 }
 
-.iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
+.myIframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 }
 </style>
-<div class="iframe-container">
+<div class="myIframe">
 <iframe src="/assets/pdf/resume.pdf"/>
 </div>
