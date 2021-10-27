@@ -7,7 +7,10 @@ permalink: /connect/
 # Connect
 
 ## Social Media
+[<i class="fab fa-github-square"></i> Github](https://github.com/nick-perry14)
 [<i class="fab fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/nicholas-a-perry/)
+[<i class="fab fa-keybase"></i> Keybase](https://keybase.io/nicholasperry)
+
 ## Email Me
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xzbyqlpg" method="post">
   <fieldset id="fs-frm-inputs">
