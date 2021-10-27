@@ -1,3 +1,9 @@
+---
+layout: page
+title: About
+permalink: /university/
+---
+
 FROM [WIKIPEDIA](https://en.wikipedia.org/wiki/Miami_University) - **[Miami University](https://miamioh.edu)**  (informally  **Miami of Ohio**  or simply  **Miami**) is a public research university located  in Oxford, Ohio. The university was founded in 1809, making it the second-oldest university in Ohio (behind  Ohio University, founded in 1804) and the 10th oldest public university (32nd overall) in the United States.  The school's system comprises the main campus in  Oxford, Ohio, as well as regional campuses in nearby  Hamilton,  Middletown, West Chester. Miami also maintains an international boarding campus, the  Dolibois European Center, in Differdange, Luxembourg.
 
 Miami University is classified among "R2: Doctoral Universities – High research activity". It is the westernmost member of the University System of Ohio.
