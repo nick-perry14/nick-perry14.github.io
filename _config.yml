@@ -38,6 +38,7 @@ code_badge:
 header_pages:
    - index.html
    - about.markdown
+   - blog.markdown
    - university.markdown
    - connect.markdown
    - resume.markdown
