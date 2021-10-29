@@ -33,4 +33,3 @@ I currently attend [Miami University](/university) as a Computer Science Major i
 - Boy Scouts **2013 - 2017**
 - NHS **2018-2019**
 - Student Conduct Board Member and Appeals Board Member, Miami University Office of Community Standards, **2020-Present**
-- 
