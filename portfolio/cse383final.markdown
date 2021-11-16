@@ -4,7 +4,7 @@ permalink: /portfolio/cse383final
 ---
 # Web Applications Programming Final
 
-## Class Description (From [Miami University](https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-383/index.html))
+## Class Description (From [Miami University](https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-383/index.html)){:target="_blank"}
 An introduction to the software, concepts and methodologies necessary to design and implement web applications. Students will design and construct web applications utilizing remote servers on multiple platforms. Projects will be used to enable the students to apply the principles and techniques presented in class.
 
 ## Program Description
