@@ -1,6 +1,6 @@
 ---
-title Project Trump
-permalink /portfolio/cse201-projecttrump
+title: Project Trump
+permalink: /portfolio/cse201-projecttrump
 ---
 ## Class Description (From [Miami University](https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-201/index.html))
 Principles of software engineering: Introduction to all phases of the software development life cycle and associated tools and engineering methods including the unified modeling language (UML).
