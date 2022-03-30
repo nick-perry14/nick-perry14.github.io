@@ -45,7 +45,7 @@ header_pages:
 defaults:
    home:
      heading: "Nick Perry"
-     subheading: Software Engineer • Graduate Student • Resident Assistant <img src=\"https://avatars.githubusercontent.com/u/6935777?v=4\"/>
+     subheading: <h2>Software Engineer • Graduate Student • Resident Assistant <img src=\"https://avatars.githubusercontent.com/u/6935777?v=4\"/></h2>
      banner: "assets/img/miami.jpg"
 # Build settings
 #theme: minima
