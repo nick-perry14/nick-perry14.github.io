@@ -19,13 +19,13 @@ Education
 Experience
 ----------
 
-**Resident Assistant | Miami University:**
+**Resident Assistant \| Miami University:**
 
 Responsible for:
-	* Enforcement of hall policies and procedures
-	* Ensuring general safety and security of hall
-	* Coordinating events
-	* Fostering community.
+	- Enforcement of hall policies and procedures
+	- Ensuring general safety and security of hall
+	- Coordinating events
+	- Fostering community.
 
 **Deck Supervisor | Cedar Point Amusement Park**
 
