@@ -35,11 +35,11 @@ As a deck supervisor, I was responsible for any issues regarding the daily opera
 Technical Experience
 --------------------
 
-Projects
+### Projects
 :   See [Portfolio](/portfolio)
 
-Programming Languages
-:   **Java** Strong profiency in Java.  Completed a 3 course series in Java as well as additional classes.
+### Programming Languages
+:   **Java** - Strong profiency in Java.  Completed a 3 course series in Java as well as additional classes.
 
 :   **SQL, C++, LUA** - Intermediate proficiency 
 
