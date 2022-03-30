@@ -4,4 +4,3 @@
 
 layout: home
 ---
-![[Image]](https://avatars.githubusercontent.com/u/6935777?v=4)
