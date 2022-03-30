@@ -22,11 +22,10 @@ Experience
 **Resident Assistant \| Miami University:**
 
 Responsible for:
-
-	- Enforcement of hall policies and procedures
-	- Ensuring general safety and security of hall
-	- Coordinating events
-	- Fostering community.
+- Enforcement of hall policies and procedures
+- Ensuring general safety and security of hall
+- Coordinating events
+- Fostering community.
 
 **Deck Supervisor \| Cedar Point Amusement Park**
 
@@ -36,11 +35,9 @@ Technical Experience
 --------------------
 
 ### Projects
-:   See [Portfolio](/portfolio)
+-   See [Portfolio](/portfolio)
 
 ### Programming Languages
-:   **Java** - Strong profiency in Java.  Completed a 3 course series in Java as well as additional classes.
-
-:   **SQL, C++, LUA** - Intermediate proficiency 
-
-:   Basic knowledge of **C**, **Python**, **Scheme**, **Prolog**, and **C#**
+-  **Java** - Strong profiency in Java.  Completed a 3 course series in Java as well as additional classes.
+-   **SQL, C++, LUA** - Intermediate proficiency 
+-  Basic knowledge of **C**, **Python**, **Scheme**, **Prolog**, and **C#**
