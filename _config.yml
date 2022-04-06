@@ -23,7 +23,7 @@ title: Nick Perry
 description: >- 
   Software Engineer Graduate Student Resident Assistant
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "nick-perry14.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nick-perry14.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  nick-perry14
 copyright: "Copyright (c) 2021-{currentYear} {author}"
@@ -45,7 +45,7 @@ header_pages:
 defaults:
    home:
      heading: "Nick Perry"
-     subheading: <h2>Software Engineer • Graduate Student • Resident Assistant <img src=\"https://avatars.githubusercontent.com/u/6935777?v=4\"/></h2>
+     subheading: Software Engineer • Graduate Student • Resident Assistant <img src=\"https://avatars.githubusercontent.com/u/6935777?v=4\"/>
      banner: "assets/img/miami.jpg"
 # Build settings
 #theme: minima
