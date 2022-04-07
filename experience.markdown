@@ -1,3 +1,7 @@
+---
+title: Experience
+permalink: /Experience/
+---
 ## Education
 I currently attend [Miami University](/university) as a Computer Science Major in the College of Engineering and Computing (CEC).  I currently plan to graduate with a B.S. in CS in 2022, and an M.S. in 2023.
 ### Awards and Scholarships
