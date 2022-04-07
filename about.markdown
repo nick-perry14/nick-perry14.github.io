@@ -5,7 +5,7 @@ layout: default
 ---
 # About
 
-![Profile Photo of Nick Perry](/assets/img/6935777.png)
+<img src="/assets/img/6935777.png" alt="Profile Photo of Nick Perry" height="400"/>
 
 ## Hobbies
 - Intermural Hockey
