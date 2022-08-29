@@ -23,9 +23,9 @@ permalink: /ham/
 - TYT MD-9600
 
 ## Online Presence
-- [QRZ](https://www.qrz.com/db/wb8biu)
-- [Brandmeister](https://brandmeister.network/index.php?page=profile&call=WB8BIU)
-- [FCC ULS](https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=4517311)
+- [QRZ](https://www.qrz.com/db/wb8biu){:target="_blank"}
+- [Brandmeister](https://brandmeister.network/index.php?page=profile&call=WB8BIU){:target="_blank"}
+- [FCC ULS](https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=4517311){:target="_blank"}
 
 ## QSLs
 
