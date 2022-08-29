@@ -2,6 +2,8 @@
 title: Amateur Radio
 permalink: /ham/
 ---
+#Amateur Radio
+
 ## Information
 
 | Callsign | WB8BIU  |
@@ -18,7 +20,7 @@ permalink: /ham/
 
 ### Mobile
 
-TYT MD-9600
+- TYT MD-9600
 
 ## Online Presence
 [QRZ](https://www.qrz.com/db/wb8biu)
@@ -30,8 +32,8 @@ TYT MD-9600
 As I am a (poor) student with not a lot of time on my hand, I request QSLs be in the form of EQSLs.  They are easier to track, and I do not have to pay for postage for return QSLs.  Thank You!
 
 ## Callsign History
-KE8SVW - 09/07/2021  → 10/30/2021
-WB8BIU - 10/30/2021 → Present
+- KE8SVW - 09/07/2021  → 10/30/2021
+- WB8BIU - 10/30/2021 → Present
 
 ## WB8BIU Significance
 

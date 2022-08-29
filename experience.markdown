@@ -2,6 +2,8 @@
 title: Experience
 permalink: /Experience/
 ---
+# Experience
+
 ## Education
 I currently attend [Miami University](/university) as a Computer Science Major in the College of Engineering and Computing (CEC).  I currently plan to graduate with a Bachelor of Science and a Master of Science in Computer Science in May of 2023.
 ### Awards and Scholarships
@@ -16,7 +18,9 @@ I currently attend [Miami University](/university) as a Computer Science Major i
 - Miami University Mini MBA
 	
 ## Employment
-- Software Engineer Intern, JPMorgan Chase & Co. **Jun. 2022 - Aug. 20222**
+- Graduate Assistant, Miami University **Aug. 2022 - Present**
+	- Served as a research assistant for my professor
+- Software Engineer Intern, JPMorgan Chase & Co. **Jun. 2022 - Aug. 2022**
 	- Developed a internal auto-logging python decorator to create machine-readable code to reproduce transient errors
 	- Integrated the python auto-logging decorator into the Vulnerability Orchestration Reduction Platform
 	- Updated python code to be in compliance with JPMorgan and Python style guidelines and best practices
