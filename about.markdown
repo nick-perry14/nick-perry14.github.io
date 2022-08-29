@@ -14,7 +14,8 @@ layout: default
 - Running
 - Programming
 - Video Games
+- HAM Radio
 
 ## Bio
 
-Nick Perry is a combined BS/MS computer science student who enjoy various sports and technologies.  Nick is always on the edge of technology and enjoys following tech news.  Nick will be working this summer as a Software Engineering Intern at JP Morgan Chase & Co in Columbus, OH.  Additionally, he enjoys sports and is excited to graduate in 2023 to become part of the workforce.
+Nick Perry is a combined BS/MS computer science student who enjoy various sports and technologies.  Nick is always on the edge of technology and enjoys following tech news.  Additionally, he enjoys sports and is excited to graduate in 2023 to become part of the workforce.

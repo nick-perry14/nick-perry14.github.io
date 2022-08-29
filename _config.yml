@@ -41,6 +41,7 @@ header_pages:
    - experience.markdown
    - university.markdown
    - research.markdown
+   - ham.markdown
    - connect.markdown
    - portfolio/index.markdown
    - resume.markdown
