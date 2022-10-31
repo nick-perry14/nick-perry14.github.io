@@ -39,6 +39,7 @@ I currently attend [Miami University](/university) as a Computer Science Major i
 	- Examined injured persons and administered first aid or cardiopulmonary resuscitation, if necessary, using training, medical supplies, and equipment.
 	- Contacted emergency medical personnel in case of serious injury
 	- Coordinated with other supervisors to balance staffing between sections of the waterpark
+
 	
 ## Community Service
 - Student Volunteer at [Kaleida Health](https://www.kaleidahealth.org) **2017-2018**
