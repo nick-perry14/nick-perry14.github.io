@@ -8,7 +8,7 @@ permalink: /ham/
 
 | Callsign | WB8BIU  |
 | DMR-ID   | 3193893 |
-| City     | Oxford  |
+| City     | Columbus  |
 | State    | OH      |
 
 ## Radios
