@@ -10,4 +10,4 @@ permalink: /research/
 - Cybersecurity
 
 ## Publications
-- N/A
+- [Thesis](http://rave.ohiolink.edu/etdc/view?acc_num=miami1689073041698329)
