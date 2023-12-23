@@ -47,7 +47,7 @@ header_pages:
 defaults:
    home:
      heading: "Nick Perry"
-     subheading: Software Engineer • Graduate Assistant
+     subheading: Software Engineer
      banner: "assets/img/miami.jpg"
 # Build settings
 #theme: minima
