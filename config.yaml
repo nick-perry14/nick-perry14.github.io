@@ -1,0 +1,177 @@
+baseURL: /
+languageCode: en-us
+build:
+  writeStats: true
+title: Nick Perry
+# Uncomment below to use aafu as hugo theme. See instructions in README.md
+theme: aafu
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+params:
+  author: Nick Perry
+  description: Nick Perry
+  copyright: >-
+    ©2025 Nick Perry
+  theme:
+    mainTheme: dark
+    showAttribute: true
+    singlePage: false  
+
+  profile:
+    name: "Nick Perry"
+    tagline: Cybersecurity Software Engineer
+    location: "Ohio, USA"
+    photo: profile.jpg
+  social:
+    title: Links
+    list:
+      - icon: fab fa-linkedin-in
+        url: "https://www.linkedin.com/in/nicholas-a-perry/"
+        title: LinkedIn
+      - icon: fab fa-github
+        url: "https://github.com/nick-perry14/"
+        title: GitHub
+      - icon: fab fa-orcid
+        url: "https://orcid.org/0000-0001-6873-2599"
+        title: Orcid
+      - icon: ai ai-google-scholar
+        url: "https://scholar.google.com/citations?user=3qjorqEAAAAJ&hl=en"
+        title: Google Scholar
+  showInAccordion:
+    - item: aboutme
+      expand: true
+    - item: experience
+    - item: education
+    #- item: publication
+    #- item: project
+    #- item: skill
+    #- item: hobby
+  aboutme:
+    title: About Me
+    icon: fas fa-user
+    description: Nick Perry software engineer at JPMorganChase who enjoys various sports and technologies. Nick is always on the edge of technology and enjoys following tech news. Additionally, he enjoys sports and is excited to graduate in 2023 to become part of the workforce. He graduated in 2023 with a B.S. and M.S. in Computer Science.
+  experience:
+    title: Experiences
+    icon: fas fa-briefcase
+    list:
+      - position: Security Engineer II
+        dates: Feb. 2025 - *Present*
+        url: "https://www.jpmorganchase.com/"
+        company: JPMorganChase
+        details: |1-
+          - Helped maintain an internal vulnerability management platform using agile principles, Python, and PL/SQL.
+          - Created CI/CD pipelines in Jenkins to automatically test, lint, and deploy code to different environments.
+          - Assisted internal customers with remediation of both vulnerabilities and coverage breaks.
+          - Managed and maintained code repositories throughout the entire development pipeline, ensuring strict adherence to JPMorgan and industry standards for version control, code quality, and best practices
+          - Assisted transition to compliance with PCI4.0 vulnerability management requirements
+          - Reduced logging infrastructure costs by 20+% by overseeing logs migration to Splunk
+      - position: Security Engineer I
+        dates: Aug. 2023 - Feb. 2025
+        url: "https://www.jpmorganchase.com/"
+        company: JPMorganChase
+      - position: Graduate Assistant
+        dates: Aug. 2022 - Jul. 2023
+        url: "https://miamioh.edu/"
+        company: Miami University
+        details: |1-
+          - Fully funded grant-based assistantship, half teaching, half research
+          - Assisted professor in academic research projects
+          - Supervised undergraduate research associate in lab
+          - Helped instruct an introductory programming lab as a teaching assistant
+          - Assisted professor with various day-to-day tasks such as creating labs, examinations, fixing projects, and grading of assignments
+      - position: Software Engineer Intern
+        dates: Jun. 2022 - Aug. 2022
+        url: "https://www.jpmorganchase.com/"
+        company: JPMorganChase
+        details: |1-
+          - Developed an internal auto-logging Python decorator to create machine-readable code to reproduce transient run-time errors
+          - Integrated the Python auto-logging decorator into software products
+          - Updated Python code to comply with JPMorgan and Python style guidelines and best practices
+
+  education:
+    title: Education
+    icon: fas fa-graduation-cap
+    list:
+      - degree: M.S. in Computer Science
+        college: Miami University
+        dates: 2021 - 2023
+        thesis_title: "Neural Network-Based Crossfire Attack Detection in SDN-Enabled Cellular Networks"
+        thesis_url: "http://rave.ohiolink.edu/etdc/view?acc_num=miami1689073041698329"
+      - degree: B.S. Computer Science
+        college: Miami University
+        dates: 2019 - 2023
+  # publication:
+  #   title: Publications
+  #   icon: fas fa-book
+  #   format:
+  #     - date
+  #     - title
+  #     - authors
+  #     - journal
+  #   types:
+  #     - Journal Articles
+  #     - Proceedings
+  #   list:
+  #     - title: >-
+  #         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  #         eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  #       authors: "F Last, F Second, P secondary"
+  #       date: "2018"
+  #       journal: "Journal of Field 52 (16), 9033-9044"
+  #       url: "#"
+  #       type: Journal Articles
+  #     - title: >-
+  #         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  #         eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  #       authors: "F Last, F Second, P secondary"
+  #       date: "2018"
+  #       journal: "Journal of Field 52 (16), 9033-9044"
+  #       url: "#"
+  #       type: Journal Articles
+  #     - title: >-
+  #         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  #         eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  #       authors: "F Last, F Second, P secondary"
+  #       date: "2018"
+  #       journal: "Journal of Field 52 (16), 9033-9044"
+  #       url: "#"
+  #       type: Proceedings
+  # project:
+  #   title: Projects
+  #   icon: fas fa-project-diagram
+  #   list:
+  #     - title: Project 1
+  #       url: "#"
+  #       description: Description of the project
+  #     - title: Project 2
+  #       url: "#"
+  #       description: Description of the project
+  #     - title: Project 3
+  #       url: "#"
+  #       description: Description of the project
+  #     - title: Project 4
+  #       url: "#"
+  #       description: Description of the project
+  # skill:
+  #   title: Skills
+  #   panelId: skill-panel
+  #   icon: fas fa-cogs
+  #   list:
+  #     - skill: "Skill 1, Skill 2"
+  #       skillrating: 90
+  #     - skill: Skill 3
+  #       skillrating: 80
+  #     - skill: Skill 4
+  #       skillrating: 50
+  # hobby:
+  #   title: Hobbies
+  #   icon: fas fa-gamepad
+  #   list:
+  #     - hobby: Cooking
+  #     - hobby: Hiking
+  #     - hobby: Baking

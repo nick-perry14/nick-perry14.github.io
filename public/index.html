@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en-us" class="m-auto  dark "><head>
+	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+  <title>Nick Perry</title>
+  
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  />
+  <meta name="theme-color" content="" />
+  <meta name="description" content="Nick Perry" />
+  <meta name="author" content="Nick Perry" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+
+  
+  
+  <link href="/main.css" rel="stylesheet" />
+  
+
+  <style>
+     
+    html {
+      touch-action: manipulation;
+      scroll-behavior: smooth;
+    }
+
+    .panel {
+      max-height: 0;
+      transition: 0.3s ease-out;
+    }
+
+    .profile-photo-container {
+      img {
+        max-width: 100%;
+      }
+    }
+     
+    .pagefind-ui__search-input {
+      color: black;
+      width: 100%;
+      padding: 0.5em;
+      border-radius: 0.25em;
+      border: 1px solid gray;
+    }
+    .pagefind-ui__search-clear {
+      display: none;
+    }
+    .dark .pagefind-ui__search-input {
+      color: white;
+      background-color: #322d2d;
+      width: 100%;
+      padding: 0.5em;
+      border-radius: 0.25em;
+      border: 1px solid gray;
+    }
+    .dark .pagefind-ui__search-input::placeholder {
+      color: #8f8f8f;
+    }
+    .chevron {
+      transition: 300ms linear rotate;
+    }
+    .active > .chevron {
+      transform: rotate(90deg);
+    }
+  </style>
+
+  <script>
+    const expandAccordion = (elem) => {
+      const allPanels = Array.from(document.querySelectorAll(".panel"));
+      const allAccordion = Array.from(document.querySelectorAll(".accordion"));
+
+      if (!elem.parentElement.classList.contains("active")) {
+        allAccordion.forEach((acc) => {
+          acc.classList.remove("active");
+        });
+        elem.parentElement.classList.add("active");
+        allPanels.forEach(function (elem) {
+          elem.style.maxHeight = null;
+        });
+        let activePanel = elem.parentElement.nextElementSibling;
+        if (
+          activePanel.id != "skill-panel" &&
+          document.querySelector("#skill-panel")
+        ) {
+          let skillBars = Array.from(
+            document.querySelectorAll("#skill-percent")
+          );
+          skillBars.forEach((elem) => {
+            elem.style.width = "0";
+          });
+        }
+        activePanel.style.maxHeight = activePanel.scrollHeight + "px";
+      }
+    };
+  </script>
+
+  <script>
+    let html = document.querySelector("html");
+    let theme = window.localStorage.getItem("theme");
+
+    const setTheme = (theme) => {
+      html.classList.remove("light");
+      if (theme === "dark") {
+        html.classList.add("dark");
+        window.localStorage.setItem("theme", "dark");
+      } else {
+        html.classList.remove("dark");
+        window.localStorage.setItem("theme", "light");
+      }
+      fixThemeToggleIcon(theme);
+    };
+
+    const fixThemeToggleIcon = (theme) => {
+      let themeToggle = document.querySelector(".theme-toggle");
+      if (themeToggle) {
+        if (theme === "dark") {
+          themeToggle.classList.remove("fa-moon");
+          themeToggle.classList.add("fa-sun");
+        } else {
+          themeToggle.classList.remove("fa-sun");
+          themeToggle.classList.add("fa-moon");
+        }
+      }
+    };
+
+    if (theme == null) {
+      if (html.classList.contains("dark")) {
+        theme = "dark";
+      } else if (html.classList.contains("light")) {
+        theme = "light";
+      } else {
+        const prefersDark = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        ).matches;
+        if (prefersDark) {
+          theme = "dark";
+        } else {
+          theme = "light";
+        }
+      }
+    }
+
+    setTheme(theme);
+
+    const toggleTheme = () => {
+      html.classList.contains("dark") ? setTheme("light") : setTheme("dark");
+    };
+
+    window.onload = () => {
+      fixThemeToggleIcon(theme);
+
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="h-screen p-2 m-auto max-w-4xl flex flex-col">
+    
+    <header
+  class="nav flex flex-row row py-2 mb-6 w-full border-b border-gray-700 dark:border-gray-300 justify-between"
+>
+  <div>
+    <a class="nav-menu-item" href="//localhost:1313/">Home</a>
+    <a class="nav-menu-item" href="/blog">Blog</a>
+  </div>
+  <div>
+    <a class="mr-4" href="/search">
+      <i class="fas fa-search"></i>
+    </a>
+    <i
+      class="fas fa-sun theme-toggle text-blue-500 hover:text-blue-700 dark:text-yellow-300 dark:hover:text-yellow-500 cursor-pointer text-lg mr-9 sm:mr-0"
+      onclick="toggleTheme()"
+    ></i>
+  </div>
+</header>
+
+
+
+    
+    <main class="grow">
+<div class="grid grid-cols-1 md:grid-cols-5 gap-2 sm py-2">
+  <div class="col-span-2">
+    <div class="bg-gray-300 dark:bg-darker drop-shadow-md p-2 rounded-t-lg">
+      <div class="flex flex-col justify-center">
+        <div
+  class="w-full p-2 flex justify-center align-middle profile-photo-container"
+>
+  <img
+    class="rounded-sm"
+    src="/images/profile.jpg"
+    alt="Nick Perry"
+  />
+</div>
+
+        <div class="px-2 text-center">
+          <h1 class="mb-0">Nick Perry</h1>
+<h2 class="mb-0">Cybersecurity Software Engineer</h2>
+<h3 class="mb-4">Ohio, USA</h3>
+<div class="mb-4 flex flex-wrap justify-center">
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="https://www.linkedin.com/in/nicholas-a-perry/">
+      <i class="mt-1 fab fa-linkedin-in"></i>
+    </a>
+  </div>
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="https://github.com/nick-perry14/">
+      <i class="mt-1 fab fa-github"></i>
+    </a>
+  </div>
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="https://orcid.org/0000-0001-6873-2599">
+      <i class="mt-1 fab fa-orcid"></i>
+    </a>
+  </div>
+  
+  <div class="mx-2">
+    <a class="text-2xl" href="https://scholar.google.com/citations?user=3qjorqEAAAAJ&amp;hl=en">
+      <i class="mt-1 ai ai-google-scholar"></i>
+    </a>
+  </div>
+  
+</div>
+
+          
+        </div>
+      </div>
+    </div>
+    <footer class="text-sm text-center border-t border-gray-500  bg-gray-200 dark:bg-dark rounded-b-lg py-2 ">
+  <p class="markdownify">©2025 Nick Perry</p>
+  <p >
+
+  
+</footer>
+
+  </div>
+  <div class="col-span-3 relative">
+    
+    <div class="px-2">
+      <h2 class="accordion active">
+        
+        <p
+         
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-user"></i>
+          About Me</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class=""><p class="markdownify">
+  Nick Perry software engineer at JPMorganChase who enjoys various sports and technologies. Nick is always on the edge of technology and enjoys following tech news. Additionally, he enjoys sports and is excited to graduate in 2023 to become part of the workforce. He graduated in 2023 with a B.S. and M.S. in Computer Science.
+</p>
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="accordion">
+        
+        <p
+         
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-briefcase"></i>
+          Experiences</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+<h4 style="text-decoration: underline;">Security Engineer II</h4>
+<p class="mb-0">
+  Feb. 2025 - <em>Present</em> &middot; 
+  <a href="https://www.jpmorganchase.com/">JPMorganChase</a>
+  
+</p>
+
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<ul>
+<li>Helped maintain an internal vulnerability management platform using agile principles, Python, and PL/SQL.</li>
+<li>Created CI/CD pipelines in Jenkins to automatically test, lint, and deploy code to different environments.</li>
+<li>Assisted internal customers with remediation of both vulnerabilities and coverage breaks.</li>
+<li>Managed and maintained code repositories throughout the entire development pipeline, ensuring strict adherence to JPMorgan and industry standards for version control, code quality, and best practices</li>
+<li>Assisted transition to compliance with PCI4.0 vulnerability management requirements</li>
+<li>Reduced logging infrastructure costs by 20+% by overseeing logs migration to Splunk</li>
+</ul>
+
+</div>
+
+
+
+<h4 style="text-decoration: underline;">Security Engineer I</h4>
+<p >
+  Aug. 2023 - Feb. 2025 &middot; 
+  <a href="https://www.jpmorganchase.com/">JPMorganChase</a>
+  
+</p>
+
+
+
+<h4 style="text-decoration: underline;">Graduate Assistant</h4>
+<p class="mb-0">
+  Aug. 2022 - Jul. 2023 &middot; 
+  <a href="https://miamioh.edu/">Miami University</a>
+  
+</p>
+
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<ul>
+<li>Fully funded grant-based assistantship, half teaching, half research</li>
+<li>Assisted professor in academic research projects</li>
+<li>Supervised undergraduate research associate in lab</li>
+<li>Helped instruct an introductory programming lab as a teaching assistant</li>
+<li>Assisted professor with various day-to-day tasks such as creating labs, examinations, fixing projects, and grading of assignments</li>
+</ul>
+
+</div>
+
+
+
+<h4 style="text-decoration: underline;">Software Engineer Intern</h4>
+<p class="mb-0">
+  Jun. 2022 - Aug. 2022 &middot; 
+  <a href="https://www.jpmorganchase.com/">JPMorganChase</a>
+  
+</p>
+
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<ul>
+<li>Developed an internal auto-logging Python decorator to create machine-readable code to reproduce transient run-time errors</li>
+<li>Integrated the Python auto-logging decorator into software products</li>
+<li>Updated Python code to comply with JPMorgan and Python style guidelines and best practices</li>
+</ul>
+
+</div>
+
+
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="accordion">
+        
+        <p
+         
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-graduation-cap"></i>
+          Education</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+
+<h4 style="text-decoration: underline;">M.S. in Computer Science</h4>
+<p class="mb-0" >2021 - 2023 &middot; Miami University</p>
+
+
+<p>
+  Thesis:
+  <a href="http://rave.ohiolink.edu/etdc/view?acc_num=miami1689073041698329"><i>Neural Network-Based Crossfire Attack Detection in SDN-Enabled Cellular Networks</i></a>
+</p>
+
+
+
+
+<h4 style="text-decoration: underline;">B.S. Computer Science</h4>
+<p >2019 - 2023 &middot; Miami University</p>
+
+
+</div>
+      </div>
+    </div>
+        
+  </div>
+</div>
+
+    </main>
+    
+  </body>
+</html>
