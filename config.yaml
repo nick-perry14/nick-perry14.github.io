@@ -19,7 +19,7 @@ params:
     ©2025 Nick Perry
   theme:
     mainTheme: dark
-    showAttribute: true
+    showAttribute: false
     singlePage: false  
 
   profile:
