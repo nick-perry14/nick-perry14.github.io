@@ -137,7 +137,7 @@ params:
     title: "Nick Perry."
     subtitle: "Cybersecurity Software Engineer"
     content: "Security Engineer with background in the financial industry"
-    image: /images/hero.svg
+    image: /images/profile.jpg
     bottomImage:
       enable: true
     roundImage: true # Make hero image circular | default false
