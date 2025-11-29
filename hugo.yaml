@@ -155,9 +155,9 @@ params:
           url: https://orcid.org/0000-0001-6873-2599
         - icon: fab fa-github
           url: https://github.com/nick-perry14
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+      #customIcons:
+      #  - icon: /fav.png
+      #    url: "https://example.com"
 
   # About
   about:
