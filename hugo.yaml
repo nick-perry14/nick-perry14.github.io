@@ -163,19 +163,21 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    #image: "/images/me.png"
     content: |-
       I am a software engineer at JPMorganChase who enjoys various sports and technologies. Nick is always on the edge of technology and enjoys following tech news. Additionally, he enjoys sports and is excited to graduate in 2023 to become part of the workforce. He graduated in 2023 with a B.S. and M.S. in Computer Science.
     skills:
       enable: true
-      title: "Skills:"
+      title: "I have experience in the following areas:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Vulnerability Management"
+        - "Qualys VMDR"
+        - "Python"
+        - "OracleDB"
+        - "SQL"
+        - "Splunk"
+        - "FluentD/FluentBit"
+        - "Java" 
 
   # Experience
   experience:
@@ -196,21 +198,15 @@ params:
                 - Managed and maintained code repositories throughout the entire development pipeline, ensuring strict adherence to JPMorgan and industry standards for version control, code quality, and best practices
                 - Assisted transition to compliance with PCI4.0 vulnerability management requirements
                 - Reduced logging infrastructure costs by 20+% by overseeing logs migration to Splunk
-            featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                  tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
-                  # tooltip: Example tooltip content
-              customIcons:
-                - icon: /fav.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
           - name: "Security Engineer I"
             date: "Aug. 2023 - Feb. 2025"
             content: ""
+          - name: "Software Engineer Intern"
+            date: "Jan 2020 - Aug 2020"
+            content: |1-
+              - Developed an internal auto-logging Python decorator to create machine-readable code to reproduce transient run-time errors
+              - Integrated the Python auto-logging decorator into software products
+              - Updated Python code to comply with JPMorgan and Python style guidelines and best practices
 
       - company: "Miami University"
         companyUrl: "https://miamioh.edu"
@@ -223,15 +219,7 @@ params:
               - Developed an internal auto-logging Python decorator to create machine-readable code to reproduce transient run-time errors
               - Integrated the Python auto-logging decorator into software products
               - Updated Python code to comply with JPMorgan and Python style guidelines and best practices
-      - company: "JPMorganChase"
-        companyUrl: "https://www.jpmorganchase.com"
-        jobs: 
-        - name: "Junior Software Developer"
-          date: "Jan 2020 - Aug 2020"
-          content: |1-
-            - Developed an internal auto-logging Python decorator to create machine-readable code to reproduce transient run-time errors
-            - Integrated the Python auto-logging decorator into software products
-            - Updated Python code to comply with JPMorgan and Python style guidelines and best practices
+
   # Education
   education:
     enable: true
@@ -244,10 +232,7 @@ params:
           url: "https://miamioh.edu"
         date: "2021 - 2023"
         GPA: "3.95 out of 4.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        content: ""
         featuredLink:
           enable: true
           name: "Thesis: Neural Network-Based Crossfire Attack Detection in SDN-Enabled Cellular Networks"
@@ -338,13 +323,13 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
-    #   messageRows: 5
+    btnLink: mailto:test@example.com
+    formspree:
+      enable: true # `contact.email` value will be ignored
+      formId: xzbyqlpg # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+      emailCaption: "Enter your email address"
+      messageCaption: "Enter your message here"
+      messageRows: 5
 
   footer:
     recentPosts:
