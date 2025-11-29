@@ -165,7 +165,7 @@ params:
     title: "About Me"
     #image: "/images/me.png"
     content: |-
-      I am a software engineer at JPMorganChase who enjoys various sports and technologies. Nick is always on the edge of technology and enjoys following tech news. Additionally, he enjoys sports and is excited to graduate in 2023 to become part of the workforce. He graduated in 2023 with a B.S. and M.S. in Computer Science.
+      I am a software engineer at JPMorganChase who enjoys various sports and technologies. I am always on the edge of technology and enjoy following tech news. Additionally, I graduated in 2023 with a B.S. and M.S. in Computer Science.
     skills:
       enable: true
       title: "I have experience in the following areas:"
