@@ -189,9 +189,7 @@ params:
         jobs:
           - name: "Security Engineer II"
             date: "Feb. 2025 - Present"
-            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-            info:
-              content: |1-
+            content: |1-
                 - Helped maintain an internal vulnerability management platform using agile principles, Python, and PL/SQL.
                 - Created CI/CD pipelines in Jenkins to automatically test, lint, and deploy code to different environments.
                 - Assisted internal customers with remediation of both vulnerabilities and coverage breaks.
@@ -213,8 +211,6 @@ params:
         jobs:
           - name: "Graduate Assistant"
             date: "Aug. 2022 - Jul. 2023"
-            info:
-              content: I worked as a software developer for more than one year in Amazon.
             content: |1-
               - Developed an internal auto-logging Python decorator to create machine-readable code to reproduce transient run-time errors
               - Integrated the Python auto-logging decorator into software products
