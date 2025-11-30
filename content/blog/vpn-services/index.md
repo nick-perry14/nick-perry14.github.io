@@ -7,7 +7,7 @@ tags:
   - VPN
   - Cybersecurity
   - Virtual Private Network
-image: images/vpns.jpg
+image: /blog/vpn-services/images/vpns.jpg
 description: ""
 toc: 
 ---
