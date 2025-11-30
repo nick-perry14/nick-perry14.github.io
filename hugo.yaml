@@ -370,4 +370,3 @@ params:
     articleRecent: "Jan 2, 2006"
 
   customScripts: |- # You can add custom scripts which will be added before </body> tag
-    <script> document.addEventListener("DOMContentLoaded", function () {const divs = document.querySelectorAll('div.text-secondary'); divs.forEach(div => div.remove());});</script>
