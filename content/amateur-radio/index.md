@@ -1,6 +1,8 @@
 ---
 title: "Amateur Radio"
 description: ""
+tags:
+  - Amateur Radio
 ---
 
 ## Information:
