@@ -35,6 +35,11 @@ Menus:
       title: Blog posts
       url: /blog
       weight: 1
+    - identifier: amateur-radio
+      name: Amateur Radio
+      title: Amateur Radio
+      url: /amateur-radio
+      weight: 2
     # - identifier: gallery
     #   name: Gallery
     #   title: Blog posts
