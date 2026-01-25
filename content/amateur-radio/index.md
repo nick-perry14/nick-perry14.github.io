@@ -20,9 +20,9 @@ layout: custom-page
 ## Online Presence
 {{< /text-center >}} 
 
-* [QRZ](https://web.archive.org/web/20240625021538/https://www.qrz.com/db/wb8biu)
-* [Brandmeister](https://web.archive.org/web/20240625021538/https://brandmeister.network/index.php?page=profile&call=WB8BIU)
-* [FCC ULS](https://web.archive.org/web/20240625021538/https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=4517311)
+* [QRZ](https://www.qrz.com/db/wb8biu)
+* [Brandmeister](https://brandmeister.network/index.php?page=profile&call=WB8BIU)
+* [FCC ULS](https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=4517311)
 
 ---
 
