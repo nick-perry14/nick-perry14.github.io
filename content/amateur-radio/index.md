@@ -1,5 +1,6 @@
 ---
 title: "Amateur Radio"
+description: ""
 ---
 
 ## Information:
@@ -26,4 +27,3 @@ I request QSLs be in the form of EQSLs. They are easier to track, and I do not h
 ## WB8BIU Significance
 
 WB8BIU was issued to my grandfather, Clifford “Denny” Perry. For as long as I could remember, Denny had his giant antenna outside of his house, and had his HAM setup in his basement. I remember him taking me to some HAM events to help with parking and such in West Chester, Ohio. My grandfather passed away on May 24, 2020. Following his death, I decided to take on his callsign as HAM radio was a large part of his life.
-
